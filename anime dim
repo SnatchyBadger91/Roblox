@@ -163,7 +163,7 @@ local p = {
     "Zoro",
     "All Might",
     "Rukia",
-    "Shinra",
+    "Shinra",f
     "Tanjiro",
     "Gray",
     "Sasuke",
@@ -177,7 +177,10 @@ local p = {
     "Goku",
     "Ichigo",
     "Luffy",
-    "Naruto"
+    "Naruto",
+    "Best Boy (Summer)",
+    "Primordial",
+    "Gear 5 Fluffy"
 }
 local q = {
     "Infinite Mode",
@@ -192,7 +195,7 @@ local q = {
 }
 local r = {"Easy", "Hard", "Nightmare", "Infinite"}
 local s = {"Capsule Series 1", "Raid Capsule", "Infinity Nojo Capsule", "Esper Capsule"}
-local t = {"Esper Raid", "Tengoku Raid", "Hirito Raid", "Titan Raid", "Infinity Nojo Raid"}
+local t = {"Esper Raid", "Tengoku Raid", "Hirito Raid", "Titan Raid", "Gear 5 Fluffy Raid"}
 local u = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local v = u:MakeWindow({Name = "Bird Hub", HidePremium = true})
 local w = v:MakeTab({Name = "Main", PremiumOnly = false})
@@ -1182,7 +1185,10 @@ w:AddToggle(
                             "Gojo",
                             "Genos",
                             "Attack Titan",
-                            "Eugeo"
+                            "Eugeo",
+                            "Primordial",
+                            "Best Boy (Summer)",
+                            "Gear 5 Fluffy"
                         }
                         local Y = math.random(1, #X)
                         local Z = X[Y]
